@@ -14,6 +14,7 @@ button.addEventListener('click', () => {
     var diceImageSrc3 = `img/so${xx3}.jpg`;
 
     var htmlContent = `<img class="dice-image" src="${diceImageSrc1}" alt="Dice ${xx1}">
+    <img class="dice-image" src="img/so1.jpg" alt="Dice ${xx2}">
     <img class="dice-image" src="${diceImageSrc2}" alt="Dice ${xx2}">
     <img class="dice-image" src="${diceImageSrc3}" alt="Dice ${xx3}">`;
 
