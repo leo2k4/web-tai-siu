@@ -9,9 +9,9 @@ button.addEventListener('click', () => {
     var xx3 = Math.floor(Math.random() * 6) + 1;
     var kq = xx1 + xx2 + xx3;
     // console.log(xx1, xx2, xx3);
-    var diceImageSrc1 = `../img/so${xx1}.jpg`;
-    var diceImageSrc2 = `../img/so${xx2}.jpg`;
-    var diceImageSrc3 = `../img/so${xx3}.jpg`;
+    var diceImageSrc1 = `img/so${xx1}.jpg`;
+    var diceImageSrc2 = `img/so${xx2}.jpg`;
+    var diceImageSrc3 = `img/so${xx3}.jpg`;
 
     var htmlContent = `<img class="dice-image" src="${diceImageSrc1}" alt="Dice ${xx1}">
     <img class="dice-image" src="${diceImageSrc2}" alt="Dice ${xx2}">
