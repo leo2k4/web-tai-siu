@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    background: url('../img/—Pngtree—classy\ luxury\ casino\ game\ background_1467903.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* Chiều cao của body tương đương với viewport */
+}
+
+.khung {
+    border: 2px solid #000;
+    height: 60%;
+    /* Chiều cao của .khung là 60% của body */
+    width: 40%;
+    /* Chiều rộng của .khung là 40% của body */
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.p1 {
+    padding-top: 20px;
+}
+
+.thongbao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-top: 15%;
+    /* Khoảng cách từ nút đến top là 15% của chiều cao của .khung */
+}
+
+.result {
+    height: 10%;
+    /* Chiều cao của .result là 10% của chiều cao của .khung */
+}
